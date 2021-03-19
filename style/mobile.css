@@ -1,0 +1,688 @@
+/* nav-bar */
+@media screen and (max-width: 1200px){
+    .nav .nav-wrap .nav-bar ul li{
+        padding: .2rem .2rem;
+
+    }
+
+    .nav .nav-wrap .nav-bar ul li a{
+        font-size: 12px;
+    }
+    .nav .nav-wrap .nav-bar ul li .button{
+        padding: .4rem 1rem ;
+        font-size: 12px;
+
+    }
+}
+@media screen and (max-width: 950px){
+    .nav .nav-wrap .nav-bar ul li .button{
+        font-size: 12px;
+    }
+    .nav .nav-wrap .menu{
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .nav .nav-wrap .nav-bar{
+        position: relative;
+    }
+    .nav .nav-wrap .nav-bar ul{
+       position: fixed;
+       width: 100%;
+       height: 100%;
+       z-index: 2;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       top: 0;
+       right: -100%;
+       background-color: black;
+       transition: .3s ;
+    
+    }
+    .nav .nav-wrap .nav-bar .show{
+        right: 0;
+    }
+    .nav .nav-wrap .nav-bar ul i{
+        position:absolute;
+        top: 18px;
+        right: 0px;
+        display: block;
+        color: white;
+        z-index: 2;
+        font-size: 25px;
+        border: 0;
+        
+    }
+    .nav .nav-wrap .nav-bar ul li{
+        margin: 10px 0;
+    }
+    .nav .nav-wrap .nav-bar ul li a{
+        font-size: 13px;
+    }
+    
+    .nav .nav-wrap .menu{
+        display: block;
+    }
+}
+
+/* hero-setion mobile responsive css */
+@media screen and (max-width: 700px){
+    .hero{
+        width: 100%;
+        height: 90vh;
+    }
+.hero .hero-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../image/mobile-hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+}
+.hero .hero-wrap h1{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.hero .hero-wrap p span{
+    text-transform: uppercase;
+    font-size: 13px;
+    
+}
+
+
+}
+
+/* about-section css */
+
+@media screen and (max-width: 1200px){
+    .about-section{
+        padding: 2rem 1rem;
+    }
+    .about-section .wrap{
+        padding: 1rem 1rem;
+    }
+}
+@media screen and (max-width: 1000px){
+    .about-section .title{
+        font-size: 25px;
+    }
+    .about-section .wrap{
+        padding: 0;
+    }
+    .about-section .wrap .about-wrap{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 2rem 0;
+    }
+    .about-section .wrap .about-wrap h1{
+        font-size: 17px;
+    }
+    .about-section .wrap .about-wrap p{
+        font-size: 13px;
+        padding-right: 1rem;
+    }
+    /* skills css */
+    .about-section .wrap .skills{
+        margin: 1rem 1rem 0px 1rem;
+        padding: .5rem 1rem;
+        height: min-content;
+    }
+    .about-section .wrap .skills .stitle{
+        font-size: 20px;
+    }
+    .about-section .wrap .skills .bars-wrap p{
+        font-size: 13px;
+    }
+    .about-section .wrap .skills .bars-wrap  .skills-bar{
+        height: 8px;
+    }
+    .about-section .wrap .skills .bars-wrap  .skills-bar::before{
+        height: 8px;
+    }
+}
+@media screen and (max-width: 700px){
+    .about-section {
+        justify-content: center;
+        align-items: center;
+    }
+    .about-section .title{
+        font-size: 20px;
+        width: auto;
+        text-align: center;
+        margin: 0;
+        padding: .3rem;
+    }
+    .about-section .wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-section .wrap .about-wrap{
+        width: 90%;
+        margin: 15px 0 0 0 ;
+        padding: 1rem;
+        border: 1px #8e44ad solid;
+        /* border-radius: 5px; */
+        background-color: #8d44ad2a;
+    }
+    .about-section .wrap .about-wrap h1{
+        font-size: 15px;
+    }
+    .about-section .wrap .about-wrap p{
+        font-size: 12px;
+    }
+    .about-section .wrap .skills{
+        width: 90%;
+    }
+    /* skills */
+    .about-section .wrap .skills{
+        margin: 1rem;
+        padding: .5rem;
+        height: min-content;
+    }
+    .about-section .wrap .skills .stitle{
+        margin-left: 1rem;
+        font-size: 18px;
+    }
+    .about-section .wrap .skills .bars-wrap p{
+        font-size: 12px;
+    }
+    .about-section .wrap .skills .bars-wrap  .skills-bar,.about-section .wrap .skills .bars-wrap  .skills-bar::before{
+        height: 7px;
+    }
+}
+
+/* services section css */
+
+@media screen and (max-width: 900px){
+    .service .service-wrap .service-title{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .service .service-wrap .service-title{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .service .service-wrap .model-box{
+        width: 100%;
+        margin-top: 9rem;
+    }
+}
+@media screen and (max-width: 950px){
+    .service .service-wrap .model-box{
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+    }
+    .service .service-wrap .model-box .box{
+        width: 230px;
+        height: 180px;
+        padding: .5rem .5rem .5rem .7rem;
+    }
+    .service .service-wrap .model-box .box .icon{
+        max-width: 20px;
+        max-height: 20px;
+    }
+    .service .service-wrap .model-box .box .content h1{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .service .service-wrap .model-box .box .content p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .service .service-wrap .model-box .box .link{
+        font-size: 13px;
+        padding: .3rem .4rem;
+        margin-top: .5rem;
+    }
+}
+@media screen and (max-width: 550px){
+    .service .service-wrap .model-box{
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+    
+    .service .service-wrap .model-box .box{
+        width: 80%;
+        align-items: center;
+        height: min-content;
+    }
+    .service .service-wrap .model-box .box .icon{
+        max-width: 25px;
+        max-height: 25px;
+    }
+    .service .service-wrap .model-box .box .content{
+        display: flex;
+        flex-direction: column;
+        justify-self: unset;
+        align-items: center;
+        text-align: center;
+    }
+    .service .service-wrap .model-box .box .content h1{
+        font-size: 14px;
+    }
+    .service .service-wrap .model-box .box .content p{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .service .service-wrap .model-box .box .link{
+        margin-top: 1rem;
+    }
+
+}
+
+/* project css here */
+@media screen and (max-width: 1200px){
+    .project .project-wrap .project-box{
+        width: 20rem;
+        
+    }
+    /* content css */
+    
+}
+@media screen and (max-width: 950px){
+    .project .ptitle{
+        width: 50%;
+    }
+    .project .project-wrap{
+        padding: 15% 1rem 0 1rem;
+    }
+}
+@media screen and (max-width: 800px){
+    .project .ptitle{
+        width: 60%;
+    }
+    .project .project-wrap{
+        padding: 15% 0rem 0 0rem;
+    }
+    .project .project-wrap .project-box{
+        width: 80%;
+        height: 17rem;
+    }
+    /* content css */
+    .project .project-wrap .project-box .content{
+        height: 15rem;
+    }
+    /* explore more css */
+    .project .project-explore{
+        padding: .7rem 1.3rem;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 550px){
+    .project .ptitle{
+        width: 70%;
+    }
+    .project .project-wrap{
+        padding: 18% 0rem 0 0rem;
+    }
+    .project .project-wrap .project-box{
+        width: 80%;
+        height: 15rem;
+    }
+     /* content css */
+    .project .project-wrap .project-box .content{
+        height: 13rem;
+    }
+    /* span or dot css here */
+    .project .project-wrap .project-box .box-head .icon span{
+        width: 8px;
+        height: 8px;
+    }
+    /* text in box */
+    .project .project-wrap .project-box .box-head .text p{
+        font-size: 12px;
+        
+    }
+    .project .project-wrap .project-box:hover .box-head .text p{
+        padding: .3rem .7rem;
+        border: 1px black solid;
+    }
+    .project .project-wrap .project-box .box-head .text p:hover{
+        border: 1px #8e44ad solid;
+    }
+    /* explore more css */
+    .project .project-explore{
+        padding: .6rem 1.1rem;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 370px){
+    .project .ptitle{
+        width: 80%;
+    }
+    .project .project-wrap{
+        padding: 20% 0rem 0 0rem;
+    }
+    .project .project-wrap .project-box{
+        width: 90%;
+        height: 12rem;
+    }
+    /* head text css */
+    .project .project-wrap .project-box .box-head .text{
+        top: 3px;
+    }
+    /* head round icon */
+    .project .project-wrap .project-box .box-head .icon{
+        top: 8px;
+    }
+    /* content css */
+    .project .project-wrap .project-box .content{
+        height: 10.5rem;
+        margin-top: 1.5rem;
+    }
+    .project .project-wrap .project-box .box-head{
+        height: 1.5rem;
+    }
+    /* explore more css */
+    .project .project-explore{
+        padding: .5rem .9rem;
+        font-size: 11px;
+    }
+}
+/*stats css here */
+@media screen and (max-width: 950px){
+    .process-container .stat-wrap .stat-content{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 750px){
+    .process-container .stat-wrap .stat-content{
+        width: 90%;
+    }
+    .process-container .stat-wrap .stat-heading h1{
+        font-size: 32px;
+    }
+    .process-container .stat-wrap .stat-heading p{
+        font-size: 11px;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-icon img{
+        width: 45px;
+        height: 45px;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-text h1{
+        font-size: 25px;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-text p {
+         font-size: 12px;   
+    }
+        
+}
+@media screen and (max-width: 550px){
+    .process-container .stat-wrap{
+        width: 95%;
+    }
+    .process-container .stat-wrap .stat-heading h1{
+        font-size: 30px;
+    }
+    .process-container .stat-wrap .stat-heading p{
+        font-size: 10px;
+    }
+    .process-container .stat-wrap .stat-content{
+        width: 95%;
+        justify-content: center;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-icon img{
+        width: 40px;
+        height: 40px;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-text h1{
+        font-size: 20px;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-text p {
+         font-size: 11px;   
+    }
+        
+}
+@media screen and (max-width: 380px){
+    .process-container .stat-wrap{
+        width: 95%;
+    }
+    .process-container .stat-wrap .stat-heading h1{
+        font-size: 26px;
+    }
+    .process-container .stat-wrap .stat-heading p{
+        font-size: 10px;
+    }
+    .process-container .stat-wrap .stat-content{
+        width: 100%;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-icon img{
+        width: 35px;
+        height: 35px;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-text h1{
+        font-size: 18px;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-text p {
+         font-size: 10px;   
+    }
+        
+}
+
+@media screen and (max-width: 330px){
+    .process-container .stat-wrap{
+        width: 100%;
+    }
+    .process-container .stat-wrap .stat-heading h1{
+        font-size: 22px;
+    }
+    .process-container .stat-wrap .stat-heading p{
+        font-size: 9px;
+    }
+    .process-container .stat-wrap .stat-content{
+        width: 100%;
+        
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-icon img{
+        width: 30px;
+        height: 30px;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-text h1{
+        font-size: 16px;
+    }
+    .process-container .stat-wrap .stat-content .content-wrap .content-text p {
+         font-size: 9px;   
+    }
+        
+}
+
+
+/*process css here */
+@media screen and (max-width: 1000px){
+    .process-container .process-wrap .process-wrap-box{
+        width: 95%;
+    }
+    .process-container .process-wrap .process-wrap-box .process-box .process-content{
+        padding-right:0
+    }   
+    .process-container .process-wrap .process-wrap-box .process-box{
+        margin: 1rem .5rem;
+    }
+}
+@media screen and (max-width: 900px){
+    .process-container .process-wrap .process-title h1{
+        font-size: 1.5rem;
+    }
+    .process-container .process-wrap .process-wrap-box .process-box .process-content h1{
+        font-size: 1rem;
+    }
+    .process-container .process-wrap .process-wrap-box{
+        flex-direction: column;
+        padding-left: 5rem;
+    }
+    .process-container .process-wrap .process-wrap-box .process-box{
+        margin: 0;
+        padding: 2rem 1rem;
+        border-left: 1px #8e44ad solid;
+        flex-direction: row;
+    }
+    .process-container .process-wrap .process-wrap-box .process-box .dot{
+        width: 0;
+        height: 0;
+    }
+    .process-container .process-wrap .process-wrap-box .process-box .dot span,.process-container .process-wrap .process-wrap-box .process-box .dot-last span{
+        bottom: 60px;
+        left: -22px;
+    }
+    .process-container .process-wrap .process-wrap-box .process-box .dot-last{
+        width: 10px;
+    }
+    
+}
+@media screen and (max-width: 370px){
+    .process-container .process-wrap .process-wrap-box .process-box .dot span{
+        bottom: 60px;
+        left: -22px;
+    }
+    .process-container .process-wrap .process-wrap-box .process-box .dot-last span{
+        bottom: 60px;
+        left: -22px;
+    }
+}
+/* process css here */
+@media screen and (max-width: 1200px){
+    .process-container .process-wrap .process-box{
+        height: 22rem;
+    }
+
+}
+@media screen and (max-width: 1000px){
+    .process-container .process-wrap .process-box{
+        height: 20rem;
+    }
+
+}
+@media screen and (max-width: 800px){
+    .process-container .process-wrap .process-box{
+        background-image: url(../image/process/process-phone.png);
+        height: 50rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .process-container .process-wrap .process-box{
+        height: 40rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .process-container .process-wrap .process-box{
+        height: 35rem;
+    }
+}
+@media screen and (max-width: 350px){
+    .process-container .process-wrap .process-box{
+        height: 31rem;
+    }
+}
+
+/* contact css here */
+
+@media screen and (max-width: 800px){
+    .contact{
+        padding: 1rem;
+    }
+    .contact-title{
+        width: 130%;
+    }
+    .contact .contact-wrap {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    .contact .contact-wrap .contact-box{
+        width: 100%;
+    }
+    .contact .contact-wrap .address-box{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .contact{
+        padding: 1rem 0rem;
+    }
+    .contact-title{
+        width: 170%;
+    }
+    .contact .contact-wrap {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .contact .contact-wrap .contact-box{
+        width: 100%;
+    }
+    .contact .contact-wrap .address-box{
+        width: 100%;
+    }  
+}
+@media screen and (max-width: 400px){
+    .contact{
+        padding: 1rem 0rem;
+    }
+    .contact-title{
+        width: 210%;
+    }
+    .contact .contact-wrap {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .contact .contact-wrap .contact-box{
+        width: 100%;
+        padding: 0px 1rem;
+    }
+    .contact .contact-wrap .contact-box .field h1{
+        font-size: 16px;
+    }
+    .contact .contact-wrap .contact-box .field input, .contact .contact-wrap .contact-box .message textarea {
+        font-size: 12px;
+    }
+    .contact .contact-wrap .contact-box .field input, .contact .contact-wrap .contact-box .message textarea {
+        padding: .3rem;
+    }
+    .contact .contact-wrap .contact-box .submit input{
+        width: 7rem;
+    }
+    .contact .contact-wrap .address-box{
+        width: 100%;
+    }  
+    .contact .contact-wrap .address-box .address .content p, .contact .contact-wrap .address-box .phone .content p {
+        font-size: 13px;
+    }
+}
+
+/* footer css here */
+@media screen and (max-width: 500px){
+    footer p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 400px){
+    footer p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 300px){
+    footer p{
+        font-size: 11px;
+    }
+}
