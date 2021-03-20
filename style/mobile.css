@@ -144,7 +144,7 @@
         font-size: 20px;
     }
     .about-section .wrap .skills .bars-wrap p{
-        font-size: 13px;
+        font-size: 14px;
     }
     .about-section .wrap .skills .bars-wrap  .skills-bar{
         height: 8px;
@@ -159,7 +159,6 @@
         align-items: center;
     }
     .about-section .title{
-        font-size: 20px;
         width: auto;
         text-align: center;
         margin: 0;
@@ -180,10 +179,10 @@
         background-color: #8d44ad2a;
     }
     .about-section .wrap .about-wrap h1{
-        font-size: 15px;
+        font-size: 17px;
     }
     .about-section .wrap .about-wrap p{
-        font-size: 12px;
+        font-size: 14px;
     }
     .about-section .wrap .skills{
         width: 90%;
@@ -196,10 +195,6 @@
     }
     .about-section .wrap .skills .stitle{
         margin-left: 1rem;
-        font-size: 18px;
-    }
-    .about-section .wrap .skills .bars-wrap p{
-        font-size: 12px;
     }
     .about-section .wrap .skills .bars-wrap  .skills-bar,.about-section .wrap .skills .bars-wrap  .skills-bar::before{
         height: 7px;
@@ -232,23 +227,24 @@
     }
     .service .service-wrap .model-box .box{
         width: 230px;
-        height: 180px;
         padding: .5rem .5rem .5rem .7rem;
+        height: min-content;
     }
     .service .service-wrap .model-box .box .icon{
         max-width: 20px;
         max-height: 20px;
     }
     .service .service-wrap .model-box .box .content h1{
-        font-size: 15px;
+        font-size: 16px;
         letter-spacing: 1px;
     }
     .service .service-wrap .model-box .box .content p{
-        font-size: 10px;
+        margin: 2px;
+        font-size: 12px;
         font-weight: 500;
     }
     .service .service-wrap .model-box .box .link{
-        font-size: 13px;
+        font-size: 14px;
         padding: .3rem .4rem;
         margin-top: .5rem;
     }
@@ -275,11 +271,7 @@
         align-items: center;
         text-align: center;
     }
-    .service .service-wrap .model-box .box .content h1{
-        font-size: 14px;
-    }
     .service .service-wrap .model-box .box .content p{
-        font-size: 11px;
         font-weight: 500;
     }
     .service .service-wrap .model-box .box .link{
@@ -307,7 +299,7 @@
 }
 @media screen and (max-width: 800px){
     .project .ptitle{
-        width: 60%;
+        width: 75%;
     }
     .project .project-wrap{
         padding: 15% 0rem 0 0rem;
@@ -328,7 +320,7 @@
 }
 @media screen and (max-width: 550px){
     .project .ptitle{
-        width: 70%;
+        width: 85%;
     }
     .project .project-wrap{
         padding: 18% 0rem 0 0rem;
@@ -348,7 +340,7 @@
     }
     /* text in box */
     .project .project-wrap .project-box .box-head .text p{
-        font-size: 12px;
+        font-size: 13px;
         
     }
     .project .project-wrap .project-box:hover .box-head .text p{
@@ -366,7 +358,7 @@
 }
 @media screen and (max-width: 370px){
     .project .ptitle{
-        width: 80%;
+        width: 95%;
     }
     .project .project-wrap{
         padding: 20% 0rem 0 0rem;

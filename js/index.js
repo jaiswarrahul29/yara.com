@@ -20,6 +20,7 @@ $(".link-list-1").click(function close() {
 // for service border
 $(".link-list-2").click(function close() {
     $(".link-list-2").addClass('active')
+    $(".link-list-0").removeClass("active");
     $(".link-list-1").removeClass("active")
     $(".link-list-3").removeClass("active")
     $(".link-list-4").removeClass("active")
@@ -27,6 +28,7 @@ $(".link-list-2").click(function close() {
 // for project border
 $(".link-list-3").click(function close() {
     $(".link-list-3").addClass('active')
+    $(".link-list-0").removeClass("active");
     $(".link-list-1").removeClass("active")
     $(".link-list-2").removeClass("active")
     $(".link-list-4").removeClass("active")
@@ -34,6 +36,7 @@ $(".link-list-3").click(function close() {
 // for process border
 $(".link-list-4").click(function close() {
     $(".link-list-4").addClass('active')
+    $(".link-list-0").removeClass("active")
     $(".link-list-1").removeClass("active")
     $(".link-list-2").removeClass("active")
     $(".link-list-3").removeClass("active")
