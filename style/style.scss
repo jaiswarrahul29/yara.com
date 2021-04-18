@@ -201,7 +201,7 @@ body::-webkit-scrollbar{
     margin: 0px auto;
 }
 
-// about section css here
+//---------------------------------------------- about section css here ----------------------------------------------
 
 .about-section{
     width: 100%;
@@ -258,7 +258,7 @@ body::-webkit-scrollbar{
     text-align: left;
 
 }
-// skills css here
+//---------------------------------------------- skills css here ----------------------------------------------
 .about-section .wrap .skills{
     width: 50%;
     height: min-content;
@@ -317,8 +317,13 @@ body::-webkit-scrollbar{
 .about-section .wrap .skills .bars-wrap .bar4::before{
     width: 80%;
 }
-
-// services css here
+.about-section .wrap .skills .bars-wrap .bar5::before{
+    width: 70%;
+}
+.about-section .wrap .skills .bars-wrap .bar6::before{
+    width: 90%;
+}
+// ---------------------------------------------- services css here ----------------------------------------------
 
 .service{
     position: relative;

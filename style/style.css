@@ -413,6 +413,14 @@ body::-webkit-scrollbar {
   width: 80%;
 }
 
+.about-section .wrap .skills .bars-wrap .bar5::before {
+  width: 70%;
+}
+
+.about-section .wrap .skills .bars-wrap .bar6::before {
+  width: 90%;
+}
+
 .service {
   position: relative;
   width: 100%;
